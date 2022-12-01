@@ -104,3 +104,161 @@ progress{
     color: aqua;
 }
 
+body {
+    background: #cacadf;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4C6793;
+    padding: 0 25px;
+    transition: 0.3s;
+    height: 70px;
+
+    margin-top: 1rem;
+}
+
+.logo > a {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 25px 10px;
+    font-size: 14px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    box-shadow: 0 -5px 0px #fff inset,
+    100px 0 0 rgba(255, 255, 255, 0.253) inset;
+    padding: 25px 10px 25px 10px;
+}
+
+.hamburguer {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 2;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.hamburguer:before,
+.hamburguer:after{
+    content:"";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.hamburguer:before{
+    top: -10px;
+    width: 20px;
+
+}
+
+.hamburguer:after{
+    top: 10px;
+    width: 25px;
+}
+
+.menu-bakery {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    z-index: 3;
+    cursor:pointer;
+    opacity: 0;
+
+}
+
+.menu {
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left:  -300px;
+    background: #4C6793;
+    width: 200px;
+    height: 100%;
+    padding-top: 65px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.menu li {
+    width: 100%;
+    margin-top: 2rem;
+    padding-right: 3rem;
+    margin-bottom: -3rem;
+    border-radius: 10%;
+    
+}
+
+.menu li a,
+.menu li a:hover{
+    padding: 30px;
+    font-size: 20px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.404)inset;
+    
+
+}
+
+.navigation input:checked ~ .hamburguer {
+    background: transparent;
+}
+
+.navigation input:checked ~ .hamburguer::before {
+    top:0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.navigation input:checked ~ .hamburguer::after {
+    top:0;
+    transform: rotate(45deg);
+    width: 30px;
+}
+
+.navigation input:checked ~ .menu {
+    left: 0;
+    box-shadow: -20px 0 40px rgba(0,0,0,0.3);
+}

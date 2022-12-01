@@ -14,7 +14,20 @@
     <title>Reportes</title>
 </head>
 <body>
-    <header> </header>
+    <header> 
+        <div class="navigation">
+            <input type="checkbox" class="menu-bakery">
+            <div class="hamburguer">  
+            </div>
+            <ul class="menu">
+                <li> <a href="../html/keep.html">Inicio</a></li>
+                <li> <a href="../html/reporte.html">Reportes</a></li>
+                <li> <a href="../html/capacitaciones.html">Capacitaciones</a></li>
+                <li> <a href="../html/estrategias.html">Estrategias</a></li>
+                <li> <a href="../html/bootcam.html">Bootcamps</a></li>
+            </ul>
+        </div>
+    </header>
     <main> 
         <div class="HeaderTitle">
             <h1>REPORTES</h1>
@@ -82,12 +95,12 @@
                 const NUMBER_CFG = {count: 20, min: 0, max: 100};
 
                 const data = {
-                labels: ['Cohorte I', 'Cohorte II', 'Cohorte III', 'Cohorte IV', 'Cohorte V'],
+                labels: ['Goyn', 'Programate', 'Bit',],
                 datasets: [
                     {
                     label: 'Dataset 1',
-                    data: [12,32,12,32,12],
-                    backgroundColor: ['#8BBCCC','#4C6793','#5C2E7E','#000000','#C147E9'],
+                    data: [12,32,12],
+                    backgroundColor: ['#8BBCCC','#4C6793','#C147E9'],
                     }
                 ]
                 };
@@ -128,7 +141,7 @@
                         <progress class="file_4" id="file" max="100" value="80"> 80% </progress></li>
                     <li><label for="file">Marketing Digital:</label>
                         <progress class="file_5" id="file" max="100" value="90"> 90% </progress></li>
-                    <li><label for="file">Cyber Seguridad:</label>
+                    <li><label for="file">Cyber Security:</label>
                         <progress class="file_6" id="file" max="100" value="30"> 30% </progress></li>
                 
                 </ul>
