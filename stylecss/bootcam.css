@@ -12,13 +12,16 @@ header {
     justify-content: center;
     align-items: center;
 }
-.botcamp {
+h2.botcamp {
     text-align: center;
     color: white;
+    padding: 1.2rem;
     font-family: 'IM FELL Great Primer SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
     line-height: 98px;
     text-align: center;
-    padding: 1.2rem;
 }
 
 main {
@@ -51,8 +54,9 @@ main {
 .roadmap, .metodologia,.competencias,.evaluacion {
     display: flex;
     flex-direction: column;
-    width: 650 px;
-    height: 160px;  
+    width: 650px;
+    height: 160px;
+    font-family: alexandria;
 }
 .letrero {
     width: 230px;

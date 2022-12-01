@@ -44,13 +44,20 @@ color:white;
 .capacitaciones {
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     width: 700px;
-    height: 600px;
+    height: 150px;
     margin-top: 50px;
 
 }
 .capacitaciones summary {
     text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:x-large;
+    font-family: alexandria;
+}
+summary + p {
+    padding: 15px 0 0 0 ;
+    font-size: 20px;
+    font-family: alexandria;    
 }
