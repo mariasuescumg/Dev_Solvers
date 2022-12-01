@@ -29,12 +29,13 @@ main {
     height: 837px;
     display: flex;
     align-items: flex-start;
-    
+    z-index: 1;
 }
 .faro img{
-    width: 521px;
-    height: 744px;
-    margin-top:50px
+    width: 520px;
+    bottom: 0;
+    z-index: 0;
+    margin-top: 195px;
 }
 summary {
 background-color: #4C6793;
@@ -49,4 +50,7 @@ color:white;
     height: 600px;
     margin-top: 50px;
 
+}
+.capacitaciones summary {
+    text-align: center;
 }
