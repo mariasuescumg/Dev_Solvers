@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(233, 228, 228);
+}
+
+/* Header */
+header{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    background-color: rgb(76, 103, 147);
+    border-radius: 50px;
+    width: 900px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+a:hover{
+    text-decoration: overline 3px solid;
+}
+li:hover{
+    transform: scale(1.1);
+}
+/* Mid */
+.body__paragraph{
+    margin-top: 8rem;
+    margin-left: 6%;
+    width: 700px;
+    font-family: 'Alexandria', sans-serif;
+}
+.mid-container{
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.body-first__paragraph{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #418297;
+    margin-left: 9rem;
+    font-size: 20px;
+}
+.mid-paragraph-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-container p, .mid-container button{
+    text-align: center;
+}
+.mid-container__img{
+    position: absolute;
+}
+.mid-container-first__paragraph{
+    width: 26em;
+    padding-top: 3.2rem;
+    margin-bottom: 1.5rem;
+    color: #737171;
+}
+button{
+    border: 0;
+    background-color: #5DADF5;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: bold;
+}
+/* Figures Position */
+.Ellipse-izq-a, .Ellipse-izq-b, .Ellipse-der-a, .Ellipse-der-b, .vector-line, .Faro{
+    position: absolute;
+}
+.Ellipse-izq-a{
+    top: 0;
+}
+.Ellipse-izq-b{
+    bottom: 0;
+}
+.Ellipse-der-a{
+    bottom: 3%;
+    right: 0;
+    z-index: -4;
+}
+.Ellipse-der-b{
+    bottom: 6%;
+    right: 0;
+    z-index: -3;
+}
+.vector-line{
+    bottom: 2.5%;
+    z-index: -5;
+    right: 0.5%;
+}
+.Faro{
+    bottom: 0;
+    right: 1%;
+    z-index: -1;
+}
