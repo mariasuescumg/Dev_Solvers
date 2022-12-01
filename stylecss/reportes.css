@@ -46,17 +46,18 @@ label {
     content: counter(percentage) '%';
   }
 
-div .HeaderTitle  {
-    z-index: 0;
-  }
 .HeaderTitle{
     background-color: #4C6793;
     text-align: center;
     color: white;
     padding: 1.2rem;
     margin-top: 30px;
+    z-index: 1;
 }
 
+.stop{
+    z-index: 1;
+}
 .global{
     display: grid;
     grid-template-columns: 15% 65%;
@@ -64,7 +65,7 @@ div .HeaderTitle  {
 }
 .faro{
     width: 520px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     z-index: 0;
 }
@@ -73,6 +74,7 @@ div .HeaderTitle  {
     flex-direction: column;
     z-index: 1;
     margin-left: 330px;
+
 }
 
 .estadistic1{
