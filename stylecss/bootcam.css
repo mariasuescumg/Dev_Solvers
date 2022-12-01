@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin-top:30px;
+    width: 100%;
+    height: 157px;
+    background-color: #4C6793;
+    justify-content: center;
+    align-items: center;
+}
+.botcamp {
+    text-align: center;
+    color: white;
+    font-family: 'IM FELL Great Primer SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 837px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.faro img{
+    margin-top: 80px;
+    width: 521px;
+    height: 744px;
+}
+
+.container_documents {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    height: 800px;
+    text-align: center;
+    margin-top: 50px;
+}
+.texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.roadmap, .metodologia,.competencias,.evaluacion {
+    display: flex;
+    flex-direction: column;
+    width: 650 px;
+    height: 160px;  
+}
+.letrero {
+    width: 230px;
+    height: 45px;
+    background-color: #8BBCCC;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.archivo input {
+    margin-left: 180px;
+    color: white;
+    background-color: black;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+    border:solid 1px;
+}
+.submit input{
+    margin-top: 30px;
+}
