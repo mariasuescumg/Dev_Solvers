@@ -55,6 +55,7 @@ color:white;
     height: 135px;
     margin-top: 50px;
     margin-left: 50px;
+    
 
 }
 .capacitaciones summary {
@@ -63,7 +64,7 @@ color:white;
     border-radius: 10px;
     font-size:x-large;
     font-family: alexandria;
-    height: 145px;
+    height: 55px;
 }
 summary + p {
     padding: 15px 0 0 0 ;
